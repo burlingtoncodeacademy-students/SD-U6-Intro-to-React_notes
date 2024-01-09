@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+### Before Getting Started
+- None
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Topics Covered
+- Starting a React Project
+  - Detailing code flow
+  - What comes in "the box"
+- Creating Components
 
-## Available Scripts
+### What Should Already Be Understood
+- JavaScript Fundamentals
+  - Functions
+  - Import / Export concepts
+- File / Folder Structure
+- Git & Terminal Navigation
 
-In the project directory, you can run:
+## Files / Folders Provided in this Lesson
+- None
+  - Notes will be supplied within instructional
 
-### `npm start`
+## Resources
+- [Creating a New React App](https://react.dev/learn/start-a-new-react-project)
+- [PDF Notes Project Setup](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtREBlxLhAPTB8ZVYiQy1%2Fuploads%2F85gYGO7YaVE24rYVczhc%2FCreating%20a%20React%20App.pdf?alt=media&token=bf0f7d96-a03e-4b50-9adc-d62af526c6c3)
+- [PDF Functional Component](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FtREBlxLhAPTB8ZVYiQy1%2Fuploads%2FI7hJbXoIfL1qex9U8ipy%2FAppjs_FunctionalComponent.pdf?alt=media&token=6967bba4-00d7-4cd3-b568-cc99bec23c5e)
+- [React Slide Deck](https://www.canva.com/design/DAFWhaqpzRc/qlUfqm93ZfFJSXl-N6yd9A/view#4)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Challenge
+**Create a Footer**:
+```jsx
+/* 
+    - Create a new folder within the component folder for a footer.
+        - Within it's proper folder, create a new component called "Footer" as a jsx.
+    
+    - Write a function that exports a single h6 element with a copyright.
+    - Type in the current year.
+    - Export the component.
+    - Import the component within App.jsx
+    - Mount at the bottom of the JSX being returned in App.jsx. 
+        - note: it doesn't need to be fixed to the bottom of the browser page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Bonus: Make the year dynamic so it is not hard coded and will change after this year.
+*/
+```
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**About Me**:
+```js
+/* 
+  - Create a new folder called aboutme within the components folder.
+  - Create a new file inside the folder called AboutMe.jsx.
+  - Create a <p> tag that notes where you grew up. 
+    - Use variables for city and state.
+  - Create an unordered list with the last 3 places you have visited. (Target, Alaska, the Kitchen, etc.)
+  - Export the component.
+  - Import the component into App.jsx and mount it between the Header and Footer components.
+*/
+```
